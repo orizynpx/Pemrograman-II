@@ -52,7 +52,6 @@ class Player {
 }
 
 class RockPaperScissors {
-
     public static void countScore(Player p1, Player p2) {
         for (int i = 0; i < 3; i++) {
             char a = p1.getHandAt(i);
